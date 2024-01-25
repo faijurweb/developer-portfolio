@@ -1,0 +1,45 @@
+nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-tittle{
+  color: black;
+  font-size:45px;
+  font-weight: 700;
+}
+
+.text-primary{
+  color: coral;
+}
+
+nav >ul{
+  display: flex;
+  align-items: center;
+}
+
+nav li{
+  list-style: none;
+  margin: 40px;
+}
+
+nav a{
+  text-decoration:none ;
+  color: cornflowerblue;
+}
+
+.btn-primary{
+  color:white;
+  background-color: coral ;
+  border-radius: 5px;
+  border: 0;
+  font-size: 15px;
+  font-weight: 500px;
+  padding: 7px 15px;
+}
